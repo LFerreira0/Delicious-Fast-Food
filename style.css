@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 50px;
+    width: 100%;
+    position: fixed;   
+    z-index: 99; 
+} 
+header #midias{
+    width: 200px;
+    float: right;
+    margin-top: -50px;
+    height: 50px;
+    
+}
+header #midias .midia{
+    height: 25px;
+    margin-top: 12.5px;
+    margin-right: 20px;
+}
+header ul{
+    list-style: none;
+    color: rgb(255, 123, 0);    
+    font-family: 'Anton', sans-serif;
+}
+header ul li{
+    display: inline;
+    line-height: 50px;    
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(IMG/banner-background.jpg);
+    position: absolute;
+}
+
+.container #banner{
+    margin-top: 18vh;
+}
+
+.destaque{
+    width: 40%;
+    height: 60%;
+    margin-left: 10%;
+    float: left;    
+    margin-top: 13%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.destaque h1{
+    color: #fff;
+    font-size: 150px;
+}
+
+.destaque h3{
+    color: #fff;
+    font-size: 80px;
+}
+
+#banner{
+    float: left;
+}
+
+#banner .pick{
+    width: 600px;  
+    position: absolute;
+    right: 400px;
+    margin-top: 10vh;
+    box-shadow: 5px 5px 20px 5px #000;  
+}  
+#pick{
+    display:none
+}
+footer{
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 50px;
+    width: 100%;    
+    z-index: 99;
+}
